@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#particles-js {
+    min-height: 100%;
+    background-image: url('../img/logo/background_notte.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#particles-js .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#tiamo {
+    padding-top: 15px;
+    font-size: 50px;
+}
